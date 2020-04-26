@@ -12,6 +12,9 @@ Flutter Chat app using Socket.IO
 Visit my [socket_chat_app_server](https://github.com/dltruongc/socket_chatapp_server.git) and follow tutorial.
 ## Usage
 
+### Import
+Please goto `constants.dart` file and replace your exactly Server URL
+
 You must have both [socket_chat_app_server](https://github.com/dltruongc/socket_chatapp_server.git) and this Source code to run your app.
 
 

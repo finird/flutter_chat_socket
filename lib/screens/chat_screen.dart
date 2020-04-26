@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_socket/blocs/chat_bloc.dart';
+import 'package:flutter_socket/constants.dart';
 import 'package:flutter_socket/screens/chat_controller.dart';
 import 'package:flutter_socket/screens/chat_items.dart';
 import 'package:provider/provider.dart';
@@ -15,7 +16,7 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   void initState() {
     super.initState();
-    socket = io('http://192.168.43.111:3000', <String, dynamic>{
+    socket = io(MyAppConstants.serverBaseUrl, <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': false,
     });
