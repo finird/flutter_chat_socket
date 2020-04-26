@@ -3,9 +3,9 @@
 Flutter Chat app using Socket.IO
 
 ## Requirements
-[x] - NodeJS installed
-[x] - Flutter installed
-[x] - Git installed
+- [x] NodeJS installed
+- [x] Flutter installed
+- [x] Git installed
 
 ##### Server
 
